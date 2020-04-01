@@ -57,6 +57,7 @@ public class GoogleSearchTC2 {
 		driver.get("http://google.co.in/");
 		driver.manage().window().maximize();
 		driver.findElement(By.name("q")).sendKeys("overdrive");
+		System.out.println("*********************");
 		driver.findElement(By.name("q")).sendKeys(Keys.RETURN);
 		Thread.sleep(3000);
 		driver.close();
