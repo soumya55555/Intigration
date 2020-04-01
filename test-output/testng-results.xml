@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="142" started-at="2020-04-01T08:12:26Z" finished-at="2020-04-01T08:12:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="142" started-at="2020-04-01T08:12:26Z" finished-at="2020-04-01T08:12:27Z">
+      <class name="com.google.tests.GoogleSearchTC3">
+        <test-method status="SKIP" signature="TC01()[pri:0, instance:com.google.tests.GoogleSearchTC3@ea4a92b]" name="TC01" duration-ms="0" started-at="2020-04-01T13:42:27Z" finished-at="2020-04-01T13:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+      </class> <!-- com.google.tests.GoogleSearchTC3 -->
+      <class name="com.google.tests.GoogleSearchTC2">
+        <test-method status="SKIP" signature="TC01()[pri:0, instance:com.google.tests.GoogleSearchTC2@1b40d5f0]" name="TC01" duration-ms="8" started-at="2020-04-01T13:42:27Z" finished-at="2020-04-01T13:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+      </class> <!-- com.google.tests.GoogleSearchTC2 -->
+      <class name="com.google.tests.GoogleSearchTC1">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.google.tests.GoogleSearchTC1@4ec6a292]" name="setup" is-config="true" duration-ms="0" started-at="2020-04-01T13:42:26Z" finished-at="2020-04-01T13:42:26Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\SampleProject-master\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\SampleProject-master\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="setup(java.lang.String)[pri:0, instance:com.google.tests.GoogleSearchTC2@1b40d5f0]" name="setup" is-config="true" duration-ms="0" started-at="2020-04-01T13:42:27Z" finished-at="2020-04-01T13:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="setup(java.lang.String)[pri:0, instance:com.google.tests.GoogleSearchTC3@ea4a92b]" name="setup" is-config="true" duration-ms="0" started-at="2020-04-01T13:42:27Z" finished-at="2020-04-01T13:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="TC01()[pri:0, instance:com.google.tests.GoogleSearchTC1@4ec6a292]" name="TC01" duration-ms="20" started-at="2020-04-01T13:42:27Z" finished-at="2020-04-01T13:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+      </class> <!-- com.google.tests.GoogleSearchTC1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

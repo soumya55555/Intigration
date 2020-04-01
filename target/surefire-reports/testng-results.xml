@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="140089" started-at="2020-04-01T08:13:51Z" finished-at="2020-04-01T08:16:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="140089" started-at="2020-04-01T08:13:51Z" finished-at="2020-04-01T08:16:11Z">
+      <class name="com.google.pages.GoogleSearchTC3">
+        <test-method status="PASS" signature="TC01()[pri:0, instance:com.google.pages.GoogleSearchTC3@3ac3fd8b]" name="TC01" duration-ms="44572" started-at="2020-04-01T13:45:26Z" finished-at="2020-04-01T13:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+      </class> <!-- com.google.pages.GoogleSearchTC3 -->
+      <class name="com.google.pages.GoogleSearchTC2">
+        <test-method status="PASS" signature="TC01()[pri:0, instance:com.google.pages.GoogleSearchTC2@43a25848]" name="TC01" duration-ms="43125" started-at="2020-04-01T13:44:43Z" finished-at="2020-04-01T13:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+      </class> <!-- com.google.pages.GoogleSearchTC2 -->
+      <class name="com.google.pages.GoogleSearchTC1">
+        <test-method status="PASS" signature="TC01()[pri:0, instance:com.google.pages.GoogleSearchTC1@7c30a502]" name="TC01" duration-ms="52330" started-at="2020-04-01T13:43:51Z" finished-at="2020-04-01T13:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+      </class> <!-- com.google.pages.GoogleSearchTC1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
