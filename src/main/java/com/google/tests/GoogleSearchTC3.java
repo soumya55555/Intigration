@@ -56,7 +56,7 @@ public class GoogleSearchTC3 {
        // WebDriver driver = new FirefoxDriver(); 
 		driver.get("http://google.co.in/");
 		driver.manage().window().maximize();
-		driver.findElement(By.name("q")).sendKeys("zigwheels");
+		driver.findElement(By.name("q")).sendKeys("zigwheelss");
 		driver.findElement(By.name("q")).sendKeys(Keys.RETURN);
 		Thread.sleep(3000);
 		driver.close();
